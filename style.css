@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+
+*{
+    width: 100%;
+}
+html,body{
+    background-image: url("https://unsplash.com/photos/mBHuEkka5wM");
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;    
+    
+}
+.card{
+    margin: 1rem;
+    box-shadow: 12px 24px 12px black;
+}
+.btn-primary{
+    max-width: 5rem;
+}
+.welcome{
+    font-family: 'Roboto';
+    font-weight:700 bolder;
+    margin-top:15rem;
+    color:white;
+}
+.coming-soon{
+    font-family:'Comforter Brush';
+
+}
+.greetings{
+    background: url(https://img.collegepravesh.com/2017/07/BVCOE-Delhi.jpg) no-repeat center center fixed ;
+    background-size: cover;
+    /* background:#a39193; */
+    height: 100vh;
+    font-family:'open sans';
+}
+.middle{
+    height: 100vh;
+    background:rgb(32, 27, 27);
+
+}
+.heading{
+    background:rgb(189, 188, 188);
+    box-shadow: 12px 12px 24px black;
+    /* text-decoration: underline; */
+}
+.table{
+    position: relative;
+    color:white;
+    box-shadow: 12px 24px 12px white;
+    background:rgb(32, 27, 27);
+}
+.gap{
+    height:25%;
+}
+/* 
+hr{
+    width:120px;
+    max-width: 150px;
+    border:2px solid black;
+} */
+.events-heading{
+    box-shadow: brown 2px 2px 10px;
+    padding:1rem 0 1rem 0;
+}
+
+.container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    /* align-items: center; */
+}
+.members{
+    height:100vh;
+    background:rgba(204, 204, 204,0.4);
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+
+}
